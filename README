@@ -1,0 +1,33 @@
+
+#Car & Pedestrian Detector
+
+A computer vision project using OpenCV to detect cars and pedestrians in images and videos.
+
+Dependencies:
+
+- OpenCV (cv2)
+- Cascade classifiers for cars and pedestrians (cars.xml and haarcascade_fullbody.xml)
+
+Usage:
+
+1. Install OpenCV and import the necessary dependencies.
+2. Place the cars.xml and haarcascade_fullbody.xml files in the same directory as the script.
+3. Run the script using Python (e.g., python (link unavailable)).
+4. The script will detect cars and pedestrians in the input image and video files.
+
+Input Files:
+
+- cars_image.webp (image file for testing)
+- moving_cars.mp4 (video file for testing)
+
+Output:
+
+- Detected cars and pedestrians are highlighted in the output video stream.
+
+Key Bindings:
+
+- Press 'Q' or 'q' to quit the program.
+
+Note:
+
+- Adjust the cascade classifier files and the detection parameters as needed for optimal performance.
