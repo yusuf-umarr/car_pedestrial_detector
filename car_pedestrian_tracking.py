@@ -2,9 +2,6 @@ import cv2
 
 img_file = 'cars_image.webp'
 video_file = cv2.VideoCapture("moving_cars.mp4")
-# video_file = cv2.VideoCapture("Tesla_FSD_avoids_tumbleweed.mp4")
-# video_file = cv2.VideoCapture("Cyclist_Hits_Pedestrian.mp4")
-
 
 # #create car classifier
 car_tracker = cv2.CascadeClassifier("cars.xml")
